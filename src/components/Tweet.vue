@@ -31,7 +31,10 @@ export default {
   props:{
     tweet:{
       type: Object
-    }
+    },
+  },
+  mounted(){
+    console.log(this.tweet)
   }
 }
 </script>
